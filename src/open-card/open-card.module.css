@@ -1,0 +1,128 @@
+.breadcrumb{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.wrapper2{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wrapper2 p{
+    font-size: 16px;
+    margin-left: 15px;
+    line-height: 16px;
+}
+.arrow{
+    font-size: 18px;
+    color: gray;
+}
+
+.section{
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.wrapper{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img_wrapper
+{
+    width: 100%;
+    height: 40%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.11);
+}
+.img_wrapper img{
+    width: 80%; 
+    height: auto;
+}
+.img h3{
+    width: fit-content;
+    height: 50px;
+    border-bottom: 1px solid rgb(65, 98, 189);
+    color: rgb(65, 98, 189);
+    font-size: 22px;
+    margin-top: 50px;
+}
+.desk{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+}
+.organisation{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.name {
+    width: 100%;
+    height: 20px;
+    color: gray;
+    font-size: 12px;
+}
+.org {
+    width: fit-content;
+    height: 20px;
+    color: rgb(65, 98, 189);
+    border-bottom: 1px solid rgb(65, 98, 189);
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.age{
+    width: 100%;
+    height: 25px;
+    font-size: 14px;
+}
+.menu h1{
+    
+    width: 50%;
+    height: 40px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.location{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+}
+.menu button{
+    background-color:rgb(65, 98, 189);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 320px;
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}

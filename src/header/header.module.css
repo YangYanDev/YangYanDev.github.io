@@ -1,0 +1,141 @@
+
+.header{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.wrapper{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.img
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.img img
+{
+    width: 100%;
+    height: 60%;
+}
+.search
+{
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 3;
+}
+.search input
+{
+    width: 100%;
+    height: 50%;
+    border: 1px solid gray;
+    padding-left: 25px;
+}
+.search_items
+{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    min-height: 0px;
+    background-color: white;
+    padding: 15px;
+}
+.search_items_category{
+    width: 100%;
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.search_items_category h3{
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.search_items_cards
+{
+    width: 100%;
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.search_items_card
+{
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.search_items_card_img
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+}
+.search_items_card_img img
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.search_items_card_information
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.search_items_card_information h2
+{
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.search_items_card_information p
+{
+    width: 100%;
+    min-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.search_items_card_date
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.user_setting
+{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location{
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.location p
+{
+    margin-left: 5px;
+    font-size: 14px;
+}
